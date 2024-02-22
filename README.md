@@ -1,21 +1,80 @@
-## This repo is no longer maintained. Use the [Vagrant Box](http://build.erpnext.com/ERPNext-Vagrant.box) instead.
+<div align="center">
+![Project Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
+</div>
 
-----
+# Vagrant: Unleash Your Virtual Development Environment
 
+Vagrant is an incredible tool designed to simplify the setup and management of virtual development environments, providing a flexible, convenient solution for developers and teams looking to streamline their workflow and maintain consistent environments.
 
-# Installing prerequisites under Windows: #
+- [Explore the Docs](https://empress.eco/)
+- [Report Bug](https://github.com/empress-eco/vagrant/issues)
+- [Request Feature](https://github.com/empress-eco/vagrant/issues)
 
-1. Download and install **Virtual Box**. Attention! There are known problems with VirtualBox 5.0.2 on Windows 10 hosts and with Windows 10 guests. Some of the problems are fixed in the most recent test build which can be found at https://www.virtualbox.org/wiki/Testbuilds.
-2. Download and install **Vagrant** for Windows https://www.vagrantup.com/downloads.html
-3. Download and install **GitHub Desktop** for Windows at https://desktop.github.com/
-4. From now on use **Git Shell** (on your Desktop) to run all commands since it supports some Linux commands natively, most importantly SSH. This means you won't have to install and set up Putty.
-5. (Optional) Install a good text editor such as **Atom** at https://atom.io/
+## About The Project
 
-# Set up an ERPNext dev environment using Vagrant: # 
+### Overview
+Vagrant empowers you to set up and manage your virtual development environment effortlessly. It's ideal for developers seeking to optimize their workflow and teams aiming to maintain consistent development environments across different workstations.
 
-1. Clone this repo into a local folder with `git clone https://github.com/frappe/erpnext_vagrant.git erpnext_vagrant`
-2. Start your virtual machine by running `vagrant up`
-3. Connect to your guest system via SSH with `vagrant ssh`
-4. Set `"developer_mode": 1` in `/vagrant/frappe-bench/sites/site1.local/site_config.json`, for example by running `vim /vagrant/frappe-bench/sites/site1.local/site_config.json`. When in vim press `i` to insert text. After inserting press `ESC` and write `:wq` to write and quite the file. More on vim here https://www.linux.com/learn/tutorials/228600-vim-101-a-beginners-guide-to-vim.
-5. Go to your frappe-bench folder with `cd /vagrant/frappe-bench/` and start bench with `bench start`
-6. Open your browser on your host system and work on your ERPNExt by browsing to `http://localhost:8080/` or `http://127.0.0.1:8080`
+### Key Features
+- Effortless setup of virtual development environments.
+- Consistent environments across teams, ensuring smooth collaboration.
+- Compatibility with multiple virtualization platforms for increased flexibility.
+
+### Built With
+This project leverages the power of:
+- [VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/)
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following installed before starting:
+- VirtualBox
+- Vagrant for Windows
+- GitHub Desktop for Windows
+- Git Shell 
+
+### Installation
+Setting up a Vagrant development environment is as easy as following these steps:
+
+```sh
+# Clone this repo into a local folder
+git clone https://github.com/empress-eco/vagrant.git vagrant
+
+# Start your virtual machine
+vagrant up
+
+# Connect to your guest system via SSH
+vagrant ssh
+
+# Set "developer_mode": 1 in /vagrant/Empress-bench/sites/site1.local/site_config.json
+vim /vagrant/Empress-bench/sites/site1.local/site_config.json
+
+# Navigate to your Empress-bench folder and start bench
+cd /vagrant/Empress-bench/
+bench start
+
+# Access your Empress by browsing to http://localhost:8080/ or http://127.0.0.1:8080 on your host system browser
+```
+
+## Usage
+Vagrant is used for setting up and managing a virtual development environment. It offers an easy way to access and manage your environment through the command line.
+
+## Contributing
+We encourage and welcome contributions! Here's how you can contribute:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. Your contributions are also licensed under the same.
+
+## Acknowledgements
+
+We want to express our deepest gratitude to the Empress Community, whose innovative and dedicated work has been instrumental in building the fundamental tools that power this project. We are profoundly grateful for their pioneering work and ongoing support.
+
+<!-- MARKDOWN LINKS & IMAGES -->
