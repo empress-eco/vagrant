@@ -1,14 +1,15 @@
 <div align="center">
-![Project Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
-</div>
+
+<img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" width="80" height="80">
+
 
 # Vagrant: Unleash Your Virtual Development Environment
 
 Vagrant is an incredible tool designed to simplify the setup and management of virtual development environments, providing a flexible, convenient solution for developers and teams looking to streamline their workflow and maintain consistent environments.
 
-- [Explore the Docs](https://empress.eco/)
-- [Report Bug](https://github.com/empress-eco/vagrant/issues)
-- [Request Feature](https://github.com/empress-eco/vagrant/issues)
+[Explore the Docs](https://empress.eco/) | [Report Bug](https://github.com/empress-eco/vagrant/issues) | [Request Feature](https://github.com/empress-eco/vagrant/issues)
+
+</div>
 
 ## About The Project
 
